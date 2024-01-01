@@ -1,15 +1,14 @@
-package roadmap
+package roadmap.arrays_and_hashing
 
 import org.scalatest.wordspec.AnyWordSpec
-import roadmap.question1.Solution
 
-class Solution1Spec extends AnyWordSpec {
+class ContainsDuplicateSolverSpec extends AnyWordSpec {
 
-  "Question 1" when {
+  "ContainsDuplicateSolver" when {
     "presented with duplicates" should {
       "detect duplicates" in {
         assert(
-          Solution.containsDuplicate(
+          ContainsDuplicateSolver.solve(
             Array(1, 1, 1, 3, 3, 4, 3, 2, 4, 2)
           ) === true
         )
@@ -17,7 +16,7 @@ class Solution1Spec extends AnyWordSpec {
     }
     "presented with distinct values" should {
       "not detect duplicates" in {
-        assert(Solution.containsDuplicate(Array(1, 2, 3, 4)) === false)
+        assert(ContainsDuplicateSolver.solve(Array(1, 2, 3, 4)) === false)
       }
     }
   }
