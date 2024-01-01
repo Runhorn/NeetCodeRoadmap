@@ -14,6 +14,4 @@ object Solution extends App {
     }
     throw new Exception("Solution not found")
   }
-
-  println(twoSum(Array(3,3), 6).mkString)
 }

@@ -8,7 +8,4 @@ object Solution extends App {
   def containsDuplicate(nums: Array[Int]): Boolean = {
     nums.toSet.size < nums.length
   }
-
-  val numbers = Array(1,1,1,3,3,4,3,2,4,2)
-  println(containsDuplicate(numbers))
 }
