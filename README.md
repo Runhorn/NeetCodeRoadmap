@@ -8,7 +8,8 @@ Two Pointers [1/5]
 
 Bit Manipulation [3/7]
 
-Stack [/]
+Stack [1/7]
+
 Binary Search [/]
 Sliding Window [/]
 Linked List [/]
