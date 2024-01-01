@@ -1,9 +1,8 @@
 package roadmap.arrays_and_hashing
 
-/** https://leetcode.com/problems/two-sum/ Given an array of integers nums and
-  * an integer target, return indices of the two numbers such that they add up
-  * to target.
+/** https://leetcode.com/problems/two-sum/
   */
+
 object TwoSumSolver {
   def solve(nums: Array[Int], target: Int): Array[Int] = {
     val numIndices = scala.collection.mutable.HashMap[Int, Int]()
